@@ -34,11 +34,11 @@ const Movies = () => {
   }, []);
 
 
-
+console.log(data)
 
   return (
     < div className= {darkMode? "white-container": "black-container"}>
-    <button onClick= {handleClick} className= {darkMode? "black-button": "white-button"}>{darkMode? "Dark Theme": "White theme"}</button>
+    <button onClick= {handleClick} className= {darkMode? "black-button": "white-button"}>{darkMode? "Dark Theme": "Light theme"}</button>
       <div className="logo-container">
         <img src={logo} alt="starwars logo" className ="logo" />
       </div>
