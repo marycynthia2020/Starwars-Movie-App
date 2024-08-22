@@ -7,7 +7,7 @@ import { DarkModeProvider } from './DarkModeProvider'
 const App = () => {
 
   return (
-      <DarkModeProvider>
+      <DarkModeProvider className="whole">
       < Movies />
       </DarkModeProvider>
   

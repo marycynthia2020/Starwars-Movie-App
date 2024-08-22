@@ -48,8 +48,7 @@ const Movies = () => {
     <div className={darkMode ? "white-container" : "black-container"}>
       <button
         onClick={handleClick}
-        className={darkMode ? "black-button" : "white-button"}
-      >
+        className={darkMode ? "black-button" : "white-button"}>
         {darkMode ? "Dark Theme" : "Light theme"}
       </button>
       <div className="logo-container">
@@ -57,7 +56,7 @@ const Movies = () => {
       </div>
       {loading && (
         <div>
-          <p>please wait, your data is loading ....</p>
+          <p className="loading-phrase">please wait, your data is loading ....</p>
           <div className="loading-div">
             <img src={logo} alt="starwars logo" />
           </div>
