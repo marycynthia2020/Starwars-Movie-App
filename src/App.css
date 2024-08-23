@@ -85,11 +85,14 @@ a:hover {
 
 .black-container {
   background-color: black;
+  height: 100%;
 
 }
 
 .white-container{
   background-color: white;
+  height: 100%;
+
 }
 
 button {
