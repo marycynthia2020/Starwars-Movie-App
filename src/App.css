@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: black;
+}
 .logo-container{
   display: flex;
   justify-content: center;
@@ -132,9 +134,15 @@ button {
   }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 726px) {
   .movie-grid{
     display: flex;
     flex-direction:column;
   }
 }
+@media (max-width: 1000px) {
+  .movie-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
